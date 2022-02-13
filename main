@@ -262,5 +262,7 @@ local window = library:CreateWindow('SA&FYT') do
         library:Close()
     end})
     window:AddLabel({text = 'Configured by Daddy Noah'})
+    end})
+     window:AddLabel({text = 'test nigga'})
 end
 library:Init()
