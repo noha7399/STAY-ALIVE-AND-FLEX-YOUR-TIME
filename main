@@ -253,7 +253,7 @@ local window = library:CreateWindow('SA&FYT') do
         end})
         
         folder:AddToggle({text = 'Speed boost', flag = 'speedHack'})
-        folder:AddSlider({text = 'Speed factor', flag = 'speedFactor', min = 0.1, max = 0.2, float = 0.01})
+        folder:AddSlider({text = 'Speed factor', flag = 'speedFactor', min = 0.1, max = 0.6, float = 0.01})
         folder:AddBind({text = 'Speed bind', flag = 'speedBind', hold = true, callback = function(value)
             library._speedHackHeld = (not value)
         end})
@@ -261,7 +261,6 @@ local window = library:CreateWindow('SA&FYT') do
     window:AddBind({text = 'UI Keybind', key = Enum.KeyCode.RightControl, callback = function()
         library:Close()
     end})
-    window:AddLabel({text = 'Made by wally / BigTimbob'})
+    window:AddLabel({text = 'Configured by Daddy Noah (noha7399)'})
 end
-
 library:Init()
