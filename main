@@ -261,6 +261,6 @@ local window = library:CreateWindow('SA&FYT') do
     window:AddBind({text = 'UI Keybind', key = Enum.KeyCode.RightControl, callback = function()
         library:Close()
     end})
-    window:AddLabel({text = 'Configured by Daddy Noah (noha7399)'})
+    window:AddLabel({text = 'Configured by Daddy Noah'})
 end
 library:Init()
